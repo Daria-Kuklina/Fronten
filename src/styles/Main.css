@@ -1,0 +1,70 @@
+/* Inroduction Part */
+.intro {
+   height: 100vh;
+   background: url(../assets/images/bg_image.png) no-repeat;
+   background-position: center;
+   background-size: cover;
+   padding-bottom: 55px;
+}
+
+.intro-content {
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-image: -webkit-linear-gradient(top, #00000000, #a19e9eb3);
+   padding-bottom: 55px;
+}
+
+.intro-text {
+   font-family: "Noto Serif", serif;
+   color: white;
+   margin: 200px 0;
+}
+
+.intro-text h1 {
+   font-size: 72px;
+   line-height: 1.17;
+   font-weight: 600;
+   padding: 60px 0 40px 0;
+   margin: 0;
+}
+
+.intro-text span {
+   display: inline-block;
+   max-width: 680px;
+   font-size: 24px;
+   line-height: 1.5;
+}
+
+.arrow-svg {
+   width: 100%;
+   fill: white;
+   cursor: pointer;
+}
+
+/* Description Part */
+
+.description {
+   height: 100vh;
+   padding-top: 80px;
+}
+
+.description-content {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+.description-text {
+   display: inline-block;
+   max-width: 460px;
+   font-family: "Noto Serif", serif;
+   font-size: 20px;
+   font-weight: 400;
+   color: #000000;
+   line-height: 1.55;
+   margin: 0 30px;
+}
